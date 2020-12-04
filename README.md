@@ -64,10 +64,16 @@ For the VHDL model:
 
 ## 2. Setting up the environment 
 -------------------------------------------------------------
-- Set up your terminal by sourcing the settings.sh 
+- Set up your terminal by sourcing the settings.sh of ParaNut 
 
 ```
  source settings.sh
+```
+
+- Set up variables by sourcing the settings64.sh of Xilinx 
+
+```
+ source <Vivado-Dir>/settings64.sh
 ```
 
 ## 3. Building the SystemC model (ISS)
