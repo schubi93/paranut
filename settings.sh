@@ -37,7 +37,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Set PARANUT_HOME
-PARANUT_HOME=`dirname "$(readlink -f "$0")"`
+PARANUT_HOME=`dirname "$(readlink -f "${BASH_SOURCE[0]}")"`
 export PARANUT_HOME
 
 # Add ParaNut python tools to PATH
